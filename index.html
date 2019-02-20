@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:wb="http://open.weibo.com/wb">
 
 <head>
   <meta charset="utf-8">
@@ -7,6 +7,7 @@
   <title>Multi Link</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="./style/index.css">
+  <script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -17,6 +18,9 @@
       <input id="input" type="text" placeholder="请输入url">
       <div class="btn">
         <button id="share">分享</button>
+      </div>
+      <div class="follow">
+        <wb:follow-button uid="1685944954" type="red_1" width="67" height="24"></wb:follow-button>
       </div>
     </div>
     <!-- 微信展示页面 -->
