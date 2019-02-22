@@ -5,6 +5,9 @@ body,html {
   margin: 0;
   background: rgba(162, 78, 78, 0.666)
 }
+.hide {
+  display: none;
+}
 .main {
   width: 100%;
   height: 100%;
@@ -14,8 +17,8 @@ body,html {
   margin: auto;
 }
 .wechat-page {
-  display: none;
+  margin: auto;
 }
 .desktop-page {
-  display: none;
+  margin: auto;
 }
